@@ -1,29 +1,20 @@
-# Objective: Predict World Happiness Rankings 
+Project 1: Predict country level happiness
+Find the best model to predict a country's happiness ranking using various social variables (including those measuring perceptions of corruption, GDP, maintaining a healthy lifestyle, or social support, etc.). By running both DL and ML models, I could compare which ones showed stronger performance for this given task.
 
-What makes the citizens of one country more happy than the citizens of other countries?  Do variables measuing perceptions of corruption, GDP, maintaining a healthy lifestyle, or social support associate with a country's happiness ranking?  
+Data: 2019 World Happiness Survey Rankings + ISO 3166 Country Codes Model : Convolutional neural network models using Keras + Machine Learning models Notebook : https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project1/ML_DL_Project_1_Predicting_Happiness.ipynb
 
-Let's use the United Nation's World Happiness Rankings country level data to experiment with models that predict happiness rankings well.
+Project 2: Predict brain tumor
+Find the best model to predict brain tumor using MRI image data. I preprocessed (one-hot-encoded) image data and conducted object detection with deep learning models.
 
+Data: 253 diagnositic brain MRI images Model: Recurrent Neural Network models with Keras (w/ different numbers of hidden layers, epochs, and 2D Max Pooling, etc.) Notedbook : https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project2/ML_DL_Project_2_Predicting_Brain_Tumor_pynb.ipynb
 
----
+Project 3: Classify BBC news categories
+Find the best model to predict the category of a given news article with based on a short text from that article. I ran various RNN (i.e., LSTM) models to conduct text classification.
 
-**Data**: 2019 World Happiness Survey Rankings [1] + ISO 3166 Country Codes [2] *(The International Standard for country codes and codes for their subdivisions)*
+Data: 2225 BBC News articles Model: model: Neural network models with Keras
 
-**Features**
-*   Country or region
-*   GDP per capita
-*   Social support
-*   Healthy life expectancy
-*   Freedom to make life choices
-*   Generosity
-*   Perceptions of corruption
-*   World regions (from *ISO 3166 Country Codes*)
-
-**Target**
-*   Happiness_level (Very High = Top 20% and Very Low = Bottom 20%)
-
-**Quick note**: Countries are used in this project as a categorical variable. This variable actually is categorical at the observation level. Suffice it to say, in practice it is not ideal to build a model with a categorical variable such as countries in the World Happiness Report because there are too many categories. This is a rationale for merging this dataset with the ISO 3166 dataset because using world regions instead of countries can significantly reduce the number of categories.
-
-Source:
-* [1] https://worldhappiness.report/
-* [2] https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv
+1) A model with an embedding layer and dense layers (but w/ no layers meant for sequential data)
+2) A model using an Embedding layer with Conv1d Layers
+3) A model using an Embedding layer with one sequential layer (LSTM or GRU)
+4) A model using an Embedding layer with stacked sequential layers (LSTM or GRU)
+5) A model using an Embedding layer with bidirectional sequential layers Notebook: https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project3/ML_DL_Project_3_Classifying_BBC_News_Categories.ipynb
