@@ -7,7 +7,7 @@ By running both DL and ML models, I could compare which ones showed stronger per
 
 **Model** : Convolutional neural network models using Keras + Machine Learning models
 
-**code** : https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project1/ML_DL_Project_1_Predicting_Happiness.ipynb
+**Code** : https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project1/ML_DL_Project_1_Predicting_Happiness.ipynb
 
 ----
 # Mini-Hackathon 2 : **Image Data** - *Predict* brain tumor
@@ -19,7 +19,7 @@ I preprocessed (one-hot-encoded) image data and conducted object detection with 
 
 **Model**: Recurrent Neural Network models with Keras (w/ different numbers of hidden layers, epochs, and 2D Max Pooling, etc.)
 
-**code** : https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project2/ML_DL_Project_2_Predicting_Brain_Tumor_pynb.ipynb
+**Code** : https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project2/ML_DL_Project_2_Predicting_Brain_Tumor_pynb.ipynb
 
 ---
 # Mini-Hackathon 3 : **Text Data** - *Classify* BBC news categories
@@ -36,4 +36,4 @@ I ran various RNN (i.e., LSTM) models to conduct text classification.
 * 4) A model using an Embedding layer with stacked sequential layers (LSTM or GRU)
 * 5) A model using an Embedding layer with bidirectional sequential layers
 
-**code**: https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project3/ML_DL_Project_3_Classifying_BBC_News_Categories.ipynb
+**Code**: https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project3/ML_DL_Project_3_Classifying_BBC_News_Categories.ipynb
