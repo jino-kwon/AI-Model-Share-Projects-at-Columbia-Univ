@@ -1,4 +1,4 @@
-# Project 1 : **Tabular Data** - *Predict* country level happiness 
+# Mini-Hackathon 1 : **Tabular Data** - *Predict* country level happiness 
 
 Find the best model to predict a country's happiness ranking using various social variables (including those measuring perceptions of corruption, GDP, maintaining a healthy lifestyle, or social support, etc.).
 By running both DL and ML models, I could compare which ones showed stronger performance for this given task.
@@ -10,7 +10,7 @@ By running both DL and ML models, I could compare which ones showed stronger per
 **Notebook** : https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project1/ML_DL_Project_1_Predicting_Happiness.ipynb
 
 ----
-# Project 2 : **Image Data** - *Predict* brain tumor
+# Mini-Hackathon 2 : **Image Data** - *Predict* brain tumor
 
 Find the best model to predict brain tumor using MRI image data.
 I preprocessed (one-hot-encoded) image data and conducted object detection with deep learning models.
@@ -22,7 +22,7 @@ I preprocessed (one-hot-encoded) image data and conducted object detection with 
 **Notedbook** : https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project2/ML_DL_Project_2_Predicting_Brain_Tumor_pynb.ipynb
 
 ---
-# Project 3 : **Text Data** - *Classify* BBC news categories
+# Mini-Hackathon 3 : **Text Data** - *Classify* BBC news categories
 
 Find the best model to predict the category of a given news article with based on a short text from that article.
 I ran various RNN (i.e., LSTM) models to conduct text classification.
