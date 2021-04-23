@@ -1,4 +1,4 @@
-AI Model Share Project at Columbia University
+#AI Model Share Project at Columbia University
 
 # Mini-Hackathon 1 : **Tabular Data** - *Predict* country level happiness 
 
