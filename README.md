@@ -1,3 +1,5 @@
+AI Model Share Project at Columbia University
+
 # Mini-Hackathon 1 : **Tabular Data** - *Predict* country level happiness 
 
 Find the best model to predict a country's happiness ranking using various social variables (including those measuring perceptions of corruption, GDP, maintaining a healthy lifestyle, or social support, etc.).
