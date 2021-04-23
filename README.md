@@ -31,7 +31,7 @@ I ran various RNN (i.e., LSTM) models to conduct text classification.
 
 **Data**: 2225 BBC News articles
 
-**Model**: model: Neural network models with Keras
+**Model**: 5 Neural network models with Keras
 * 1) A model with an embedding layer and dense layers (but w/ no layers meant for sequential data)
 * 2) A model using an Embedding layer with Conv1d Layers
 * 3) A model using an Embedding layer with one sequential layer (LSTM or GRU)
