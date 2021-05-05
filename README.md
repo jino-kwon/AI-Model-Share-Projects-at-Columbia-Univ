@@ -32,10 +32,10 @@ I ran various RNN (i.e., LSTM) models to conduct text classification.
 **Data**: 2225 BBC News articles
 
 **Model**: 5 Neural network models with Keras
-* 1) A model with an embedding layer and dense layers (but w/ no layers meant for sequential data)
-* 2) A model using an Embedding layer with Conv1d Layers
-* 3) A model using an Embedding layer with one sequential layer (LSTM or GRU)
-* 4) A model using an Embedding layer with stacked sequential layers (LSTM or GRU)
-* 5) A model using an Embedding layer with bidirectional sequential layers
+* model 1) w/ an embedding layer and dense layers (but w/ no layers meant for sequential data)
+* model 2) w/ an Embedding layer with Conv1d Layers
+* model 3) w/ an Embedding layer with one sequential layer (LSTM or GRU)
+* model 4) w/ an Embedding layer with stacked sequential layers (LSTM or GRU)
+* model 5) w/ an Embedding layer with bidirectional sequential layers
 
 **Code**: https://github.com/jinokwon/AI-Model-Share-Projects-at-Columbia-Univ/blob/master/Project3/ML_DL_Project_3_Classifying_BBC_News_Categories.ipynb
